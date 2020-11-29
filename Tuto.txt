@@ -1,0 +1,17 @@
+Dossier Client : 
+
+Ici, j'ai mon  !"client.zip"! (client complet) utilisé lors du premier téléchargement du jeu ou lors de la réparation ( si nbr fichier != 11_442 ou le fichier version.txt n'existe pas).
+Avec l'option réparée sur le launcher , je télécharge tout le client.
+
+
+IMPORTANT : Mettre les fichiers directement dans la racine du .rar !! important (ne pas mettre l'ensemble des fichiers dans un dossier client)
+
+Dossier Version :
+
+Mettre dans ce dossier un fichier texte version.txt (dessus mettre un entier (1, 2, 3, ..., 14, ect..)
+
+Dossier Patch:
+
+Ici, mettre les fichiers de la maj dans un !"client.zip"! , mettre les dossiers directement dans la racine du .zip dans la meme arborescence que le client offi (exemple i18n = data/i18n/i18n_fr)
+
+

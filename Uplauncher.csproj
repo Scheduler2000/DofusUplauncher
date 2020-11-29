@@ -1,0 +1,136 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>icone.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="assets\theme\background\1.jpg" />
+    <None Remove="assets\theme\background\2.jpg" />
+    <None Remove="assets\theme\background\3.png" />
+    <None Remove="assets\theme\background\4.jpg" />
+    <None Remove="assets\theme\background\5.jpg" />
+    <None Remove="assets\theme\bouton\fermer.png" />
+    <None Remove="assets\theme\bouton\fermer_hover.png" />
+    <None Remove="assets\theme\bouton\forum.png" />
+    <None Remove="assets\theme\bouton\forum_hover.png" />
+    <None Remove="assets\theme\bouton\jouer.png" />
+    <None Remove="assets\theme\bouton\jouer_hover.png" />
+    <None Remove="assets\theme\bouton\option.png" />
+    <None Remove="assets\theme\bouton\option_hover.png" />
+    <None Remove="assets\theme\bouton\reduire.png" />
+    <None Remove="assets\theme\bouton\reduire_hover.png" />
+    <None Remove="assets\theme\bouton\site.png" />
+    <None Remove="assets\theme\bouton\site_hover.png" />
+    <None Remove="assets\theme\bouton\voter.png" />
+    <None Remove="assets\theme\bouton\voter_hover.png" />
+    <None Remove="assets\theme\dofus\dofus_jaune.png" />
+    <None Remove="assets\theme\dofus\dofus_rouge.png" />
+    <None Remove="assets\theme\dofus\dofus_vert.png" />
+    <None Remove="assets\theme\Fenetre.png" />
+    <None Remove="assets\theme\progress bar\fond.png" />
+    <None Remove="assets\theme\progress bar\progress_bar_vert.png" />
+    <None Remove="assets\theme\slider\next.png" />
+    <None Remove="assets\theme\slider\pagination.png" />
+    <None Remove="assets\theme\slider\pagination_hover.png" />
+    <None Remove="assets\theme\slider\prev.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNetZip" Version="1.13.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="assets\theme\background\3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\theme\background\2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\theme\background\1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\theme\background\4.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\theme\background\5.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\theme\bouton\fermer.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\theme\bouton\fermer_hover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\theme\bouton\forum.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\theme\bouton\forum_hover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\theme\bouton\jouer.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\theme\bouton\jouer_hover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\theme\bouton\option.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\theme\bouton\option_hover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\theme\bouton\reduire.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\theme\bouton\reduire_hover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\theme\bouton\site.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\theme\bouton\site_hover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\theme\bouton\voter.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\theme\bouton\voter_hover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\theme\dofus\dofus_jaune.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\theme\dofus\dofus_rouge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\theme\dofus\dofus_vert.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\theme\Fenetre.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\theme\progress bar\fond.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\theme\progress bar\progress_bar_vert.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\theme\slider\next.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\theme\slider\pagination.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\theme\slider\pagination_hover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="assets\theme\slider\prev.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
